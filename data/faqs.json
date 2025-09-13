@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Why did my GST filing fail?",
+    "answer": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "tags": ["gst_filing", "errors"]
+  },
+  {
+    "question": "How do I download my GSTR-2A reconciliation report?",
+    "answer": "Go to Reports > Reconciliation > Select GSTR-2A > Click Download. You can also ask the assistant: 'Download my GSTR-2A report'.",
+    "tags": ["reports", "reconciliation"]
+  },
+  {
+    "question": "What is invoice mismatch?",
+    "answer": "Invoice mismatch happens when your purchase invoice data doesn't match supplier-reported data on the GST portal. Common causes include wrong GSTIN, amount mismatch, or missing invoices.",
+    "tags": ["invoices", "reconciliation"]
+  },
+  {
+    "question": "Can I check the filing status for last month?",
+    "answer": "Yes. You can check filing status by going to Compliance > Filing History, or simply ask: 'Show filing status for last month'.",
+    "tags": ["gst_filing", "status"]
+  },
+  {
+    "question": "How do I add a new vendor?",
+    "answer": "Navigate to Vendors > Add Vendor, enter GSTIN and details, then save. The assistant can also guide you step by step.",
+    "tags": ["vendors", "setup"]
+  },
+  {
+    "question": "Why is my input tax credit not reflecting?",
+    "answer": "Input tax credit may not reflect if supplier invoices are not uploaded, GSTIN is invalid, or filing was delayed. Please reconcile data to check.",
+    "tags": ["itc", "errors"]
+  },
+  {
+    "question": "How to track pending invoices?",
+    "answer": "Go to Invoices > Pending, or simply ask the assistant: 'Show my pending invoices'.",
+    "tags": ["invoices", "tracking"]
+  },
+  {
+    "question": "What roles are available in the system?",
+    "answer": "Roles include Admin, Manager, and Viewer. Admins have full access, Managers can handle invoices and filings, and Viewers have read-only access.",
+    "tags": ["roles", "permissions"]
+  },
+  {
+    "question": "Can I schedule GST filing automatically?",
+    "answer": "Yes. Auto-filing can be scheduled from Compliance > Auto Filing Settings. The assistant can also help set up reminders.",
+    "tags": ["gst_filing", "automation"]
+  },
+  {
+    "question": "Where can I see audit logs?",
+    "answer": "Audit logs are available under Settings > Audit Trail. They track user actions like invoice edits, report downloads, and filing submissions.",
+    "tags": ["audit", "security"]
+  }
+]

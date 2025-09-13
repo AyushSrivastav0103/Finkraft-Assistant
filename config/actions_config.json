@@ -1,0 +1,74 @@
+[
+  {
+    "name": "download_gst_report",
+    "description": "Download GST filing report for a given period (e.g., last month, Q1 2025).",
+    "role_access": ["admin", "manager"],
+    "params": ["period"]
+  },
+  {
+    "name": "filter_invoices",
+    "description": "Filter invoices by date, vendor, or status (pending, reconciled, mismatched).",
+    "role_access": ["admin", "manager", "viewer"],
+    "params": ["date_range", "vendor", "status"]
+  },
+  {
+    "name": "view_filing_status",
+    "description": "Check GST filing status for a given period.",
+    "role_access": ["admin", "manager", "viewer"],
+    "params": ["period"]
+  },
+  {
+    "name": "reconcile_invoices",
+    "description": "Run reconciliation between purchase invoices and supplier GSTR-2A data.",
+    "role_access": ["admin", "manager"],
+    "params": ["period"]
+  },
+  {
+    "name": "raise_ticket",
+    "description": "Create a new support ticket for compliance issues or errors.",
+    "role_access": ["admin", "manager"],
+    "params": ["issue_summary", "priority"]
+  },
+  {
+    "name": "track_ticket",
+    "description": "View status of an existing support ticket by ID.",
+    "role_access": ["admin", "manager", "viewer"],
+    "params": ["ticket_id"]
+  },
+  {
+    "name": "add_vendor",
+    "description": "Add a new vendor with GSTIN and details.",
+    "role_access": ["admin"],
+    "params": ["vendor_name", "gstin"]
+  },
+  {
+    "name": "validate_gstin",
+    "description": "Validate a vendor GSTIN against the GST portal.",
+    "role_access": ["admin", "manager"],
+    "params": ["gstin"]
+  },
+  {
+    "name": "view_audit_trail",
+    "description": "Display user activity logs including edits, downloads, and filings.",
+    "role_access": ["admin"],
+    "params": ["period"]
+  },
+  {
+    "name": "schedule_auto_filing",
+    "description": "Set up automatic GST filing reminders or schedules.",
+    "role_access": ["admin"],
+    "params": ["period", "frequency"]
+  },
+  {
+    "name": "list_pending_invoices",
+    "description": "Show all invoices that are pending action.",
+    "role_access": ["admin", "manager", "viewer"],
+    "params": []
+  },
+  {
+    "name": "export_itc_report",
+    "description": "Export Input Tax Credit (ITC) reconciliation report.",
+    "role_access": ["admin", "manager"],
+    "params": ["period"]
+  }
+]

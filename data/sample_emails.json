@@ -1,0 +1,51 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Invoice mismatch detected for March 2025",
+    "body": "Dear User, your GSTR-2A reconciliation for March 2025 shows 5 invoices with mismatches. Please review supplier GSTIN and amounts.",
+    "category": "invoices",
+    "date": "2025-04-05"
+  },
+  {
+    "id": "email_002",
+    "subject": "GST filing failed for February 2025",
+    "body": "Your GST return filing for February 2025 was rejected by the GST portal. Reason: Incorrect HSN code in 2 invoices.",
+    "category": "gst_filing",
+    "date": "2025-03-12"
+  },
+  {
+    "id": "email_003",
+    "subject": "Upcoming filing deadline for April 2025",
+    "body": "Reminder: GST filing for April 2025 is due on May 20, 2025. Please ensure invoices are reconciled before submission.",
+    "category": "reminder",
+    "date": "2025-05-15"
+  },
+  {
+    "id": "email_004",
+    "subject": "Vendor GSTIN validation failed",
+    "body": "Vendor XYZ Pvt Ltd has an invalid GSTIN. Please update vendor details to proceed with reconciliation.",
+    "category": "vendors",
+    "date": "2025-03-22"
+  },
+  {
+    "id": "email_005",
+    "subject": "Audit trail export completed",
+    "body": "Your requested audit trail export is ready for download. File contains all invoice edits and filing actions for Q1 2025.",
+    "category": "audit",
+    "date": "2025-04-10"
+  },
+  {
+    "id": "email_006",
+    "subject": "ITC shortfall detected for January 2025",
+    "body": "Input tax credit claimed (₹1,20,000) is higher than eligible ITC (₹1,05,000) as per supplier filings. Please review invoices before re-filing.",
+    "category": "itc",
+    "date": "2025-02-08"
+  },
+  {
+    "id": "email_007",
+    "subject": "Support ticket #341 resolved",
+    "body": "Your support ticket regarding 'invoice upload error' has been marked as resolved. Please confirm if issue persists.",
+    "category": "support",
+    "date": "2025-04-18"
+  }
+]

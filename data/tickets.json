@@ -1,0 +1,83 @@
+[
+  {
+    "ticket_id": "TCK-101",
+    "summary": "GST filing failed for February 2025",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2025-03-12",
+    "updated_at": "2025-03-12",
+    "assigned_to": "Compliance Team"
+  },
+  {
+    "ticket_id": "TCK-102",
+    "summary": "Invoice mismatch for Vendor ABC Pvt Ltd",
+    "status": "in_progress",
+    "priority": "medium",
+    "created_at": "2025-04-05",
+    "updated_at": "2025-04-07",
+    "assigned_to": "Reconciliation Team"
+  },
+  {
+    "ticket_id": "TCK-103",
+    "summary": "Audit trail export request",
+    "status": "closed",
+    "priority": "low",
+    "created_at": "2025-04-10",
+    "updated_at": "2025-04-11",
+    "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-104",
+    "summary": "Vendor GSTIN validation failed for XYZ Pvt Ltd",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-03-22",
+    "updated_at": "2025-03-22",
+    "assigned_to": "Vendor Management"
+  },
+  {
+    "ticket_id": "TCK-105",
+    "summary": "Create a ticket for invoice mismatch",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-106",
+    "summary": "Create a ticket for invoice mismatch",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-107",
+    "summary": "create a ticket for finkraft HR",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-108",
+    "summary": "Create a ticket for invoice mismatch",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-109",
+    "summary": "Create a ticket for invoice mismatch",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
+  }
+]

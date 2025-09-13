@@ -1,0 +1,204 @@
+{
+  "334b5900-e44a-4788-b7dd-92fa9eb2ac02": [
+    {
+      "timestamp": "2025-09-13 16:25:24.573574",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 16:25:24.573574",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 16:39:56.247458",
+      "query": "Show your work",
+      "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 16:39:56.244734",
+        "trace": "Fallback"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 16:40:05.413585",
+      "query": "Show your work",
+      "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show your work'\nAnd I responded: '\ud83e\udd14 I didn't quite get that. Could you rephrase?...'",
+      "context": {
+        "role": "Viewer",
+        "timestamp": "2025-09-13 16:40:05.411831",
+        "trace": "Context-Enhanced Response"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 16:40:17.988619",
+      "query": "Show your work",
+      "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show your work'\nAnd I responded: 'I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show...'",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13 16:40:17.988619",
+        "trace": "Context-Enhanced Response"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 16:40:56.393829",
+      "query": "Download GST report for Q1",
+      "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Why did my GST filing fail?'\nAnd I responded: 'Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...'",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13 16:40:56.393829",
+        "trace": "Context-Enhanced Response"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 16:41:56.858313",
+      "query": "Create a ticket for invoice mismatch",
+      "response": "\u2705 Ticket TCK-105 created for: Create a ticket for invoice mismatch\n\n\u26a1 Actions executed:\n- Created ticket TCK-105",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13 16:41:56.856794",
+        "trace": "Support Module (Create Ticket)"
+      }
+    }
+  ],
+  "07203815-9ec4-41d3-8a00-d21ddd253f81": [
+    {
+      "timestamp": "2025-09-13 17:17:18.007276",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:17:18.007276",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:17:42.258250",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:17:42.258250",
+        "trace": "FAQ Module"
+      }
+    }
+  ],
+  "8c1d55e2-ec5c-4d00-8dda-0e19be8c89ae": [
+    {
+      "timestamp": "2025-09-13 17:27:51.358631",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:27:51.358631",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:28:07.071290",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:28:07.071290",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:28:47.120732",
+      "query": "Create a ticket for invoice mismatch",
+      "response": "\u2705 Ticket TCK-109 created for: Create a ticket for invoice mismatch",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:28:47.120732",
+        "trace": "Support Module (Create Ticket)"
+      }
+    }
+  ],
+  "fbdfc93e-78bc-4a1a-b43d-4bd26d7f94ee": [
+    {
+      "timestamp": "2025-09-13 17:35:57.103396",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:35:57.102396",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:36:14.727990",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:36:14.727990",
+        "trace": "Actions Module"
+      }
+    }
+  ],
+  "f605fa4f-380d-4242-aed3-fa39b2dfcd27": [
+    {
+      "timestamp": "2025-09-13 17:41:41.651806",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:41:41.651806",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:42:00.161286",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:42:00.160286",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:42:09.693472",
+      "query": "Conversation Ended",
+      "response": "User ended conversation",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:42:09.692472",
+        "trace": {}
+      }
+    }
+  ],
+  "89072a15-fba9-46ae-b191-4a52e8976d49": [
+    {
+      "timestamp": "2025-09-13 17:43:47.372605",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:43:47.371599",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:43:56.065480",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:43:56.064474",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 17:48:31.110623",
+      "query": "Download GST report for Q1",
+      "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Why did my GST filing fail?'\nAnd I responded: 'Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...'",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 17:48:31.110623",
+        "trace": "Context-Enhanced Response"
+      }
+    }
+  ]
+}
