@@ -200,5 +200,355 @@
         "trace": "Context-Enhanced Response"
       }
     }
+  ],
+  "56cb9ea1-9e8f-400f-bdbb-56d95f4f8dc0": [
+    {
+      "timestamp": "2025-09-13 18:09:25.553853",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:09:25.552854",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 18:09:39.229275",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:09:39.228080",
+        "trace": "FAQ Module"
+      }
+    }
+  ],
+  "ae716ef1-4ea3-4805-919d-1d35fe27bc07": [
+    {
+      "timestamp": "2025-09-13 18:11:04.687754",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:11:04.687754",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 18:11:22.159153",
+      "query": "Check filing status for last month",
+      "response": "\ud83d\udcdd Filing status for last month: Filed with 2 day delay\n\nDetails:\n- Due date: 20th of month\n- Filed date: 22nd of month\n- Status: Complete",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:11:22.159153",
+        "trace": "Actions Module"
+      }
+    }
+  ],
+  "5c259e6c-9714-4608-8a6d-c6db1fd975b0": [
+    {
+      "timestamp": "2025-09-13 18:13:11.261094",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:13:11.260088",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 18:13:24.106535",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:13:24.106535",
+        "trace": "FAQ Module"
+      }
+    }
+  ],
+  "d2afbc3a-1abc-4dfa-ac47-8d5e479294b8": [
+    {
+      "timestamp": "2025-09-13 18:19:35.553487",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:19:35.551952",
+        "trace": "FAQ Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 18:19:48.009383",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:19:48.009383",
+        "trace": "Actions Module"
+      }
+    }
+  ],
+  "0b468c4d-a4a2-4cad-9ae6-c2af21fb1e41": [
+    {
+      "timestamp": "2025-09-13 18:30:11.608867",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:30:11.606843",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 18:30:40.481337",
+      "query": "Create a ticket for invoice mismatch",
+      "response": "\u2705 Ticket TCK-110 created for: Create a ticket for invoice mismatch",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:30:40.481337",
+        "trace": "Support Module (Create Ticket)"
+      }
+    }
+  ],
+  "9617cdde-20cd-427a-a9da-3890b810d883": [
+    {
+      "timestamp": "2025-09-13 18:43:45.195067",
+      "query": "filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:43:45.195067",
+        "trace": "Actions Module"
+      }
+    },
+    {
+      "timestamp": "2025-09-13 18:44:00.356439",
+      "query": "download GST report for Q1",
+      "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13 18:44:00.354355",
+        "trace": "Fallback"
+      }
+    }
+  ],
+  "08823d95-be75-41ce-b25f-88e936780d2a": [
+    {
+      "timestamp": "2025-09-13 19:23:16.120593",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13T19:23:16.118585",
+        "trace": "Actions Module",
+        "conversation_id": "a286d610-ace9-4f11-b4b9-c045fc09a588",
+        "actions_performed": [
+          "Filtered invoices by period: last month, vendor: last month"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "ebf84d91-2dfe-49ff-b9e4-6c01b7b632b8": [
+    {
+      "timestamp": "2025-09-13 21:43:44.810142",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13T21:43:44.805546",
+        "trace": "Actions Module",
+        "conversation_id": "37938239-6281-4395-9f63-90e3b1826f54",
+        "actions_performed": [
+          "Filtered invoices by period: last month, vendor: last month"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "timestamp": "2025-09-13 21:44:21.969251",
+      "query": "create a ticket for finkraft HR",
+      "response": "\u2705 Ticket TCK-111 created for: create a ticket for finkraft HR",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13T21:44:21.969251",
+        "trace": "Support Module (Create Ticket)",
+        "conversation_id": "37938239-6281-4395-9f63-90e3b1826f54",
+        "actions_performed": [
+          "Created ticket TCK-111"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "9539a747-3ab5-4d2a-a8f3-46607857917a": [
+    {
+      "timestamp": "2025-09-13 22:07:31.740846",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13T22:07:31.739247",
+        "trace": "Actions Module",
+        "conversation_id": "8af09da6-1287-4948-90c5-e0e675a67641",
+        "actions_performed": [
+          "Filtered invoices by period: last month, vendor: last month"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "be0ea6fb-f5ea-44d1-8fa0-021d7748b8c6": [
+    {
+      "timestamp": "2025-09-13 22:27:52.054825",
+      "query": "Check filing status for last month",
+      "response": "\ud83d\udcdd Filing status for last month: Filed with 2 day delay\n\nDetails:\n- Due date: 20th of month\n- Filed date: 22nd of month\n- Status: Complete",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13T22:27:52.052815",
+        "trace": "Actions Module",
+        "conversation_id": "e07f8cd2-cd8d-4a6f-a0d1-faa73d142a1e",
+        "actions_performed": [
+          "Checked filing status for last month"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "077b4e1d-c69a-4f7f-a3e4-3174ad4b1ec1": [
+    {
+      "timestamp": "2025-09-13 23:11:03.776650",
+      "query": "Filter out the invoices of last month",
+      "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:11:03.775609",
+        "trace": "Fallback",
+        "conversation_id": "fa5201e5-0858-44ee-a04b-a078c5110abd",
+        "actions_performed": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "timestamp": "2025-09-13 23:12:40.213174",
+      "query": "Show my pending tasks",
+      "response": "I'm not sure what you mean. Try asking about invoices, filings, or tickets.",
+      "context": {
+        "role": "Viewer",
+        "timestamp": "2025-09-13T23:12:40.211936",
+        "trace": "Fallback",
+        "conversation_id": "fa5201e5-0858-44ee-a04b-a078c5110abd",
+        "actions_performed": [],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "321d891b-da5c-44d5-b7c8-c81b2d13f78e": [
+    {
+      "timestamp": "2025-09-13 23:20:13.113188",
+      "query": "show pending invoices summary",
+      "response": "Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:20:13.112194",
+        "trace": "Fallback",
+        "conversation_id": "bc41f9c8-1479-4d2a-acbb-69e510788cb6",
+        "actions_performed": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "timestamp": "2025-09-13 23:20:24.734907",
+      "query": "show GST compliance dashboard",
+      "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'show pending invoices summary'\nAnd I responded: 'Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?...'",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:20:24.733904",
+        "trace": "Context-Enhanced Response",
+        "conversation_id": "bc41f9c8-1479-4d2a-acbb-69e510788cb6",
+        "actions_performed": [],
+        "confidence": 0.9
+      }
+    },
+    {
+      "timestamp": "2025-09-13 23:20:37.619396",
+      "query": "show team ticket status",
+      "response": "No matching ticket found.",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:20:37.619396",
+        "trace": "Support Module (Track Ticket)",
+        "conversation_id": "bc41f9c8-1479-4d2a-acbb-69e510788cb6",
+        "actions_performed": [
+          "Checked ticket status"
+        ],
+        "confidence": 0.9
+      }
+    },
+    {
+      "timestamp": "2025-09-13 23:21:07.902504",
+      "query": "Filter last month query",
+      "response": "Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:21:07.901488",
+        "trace": "Fallback",
+        "conversation_id": "bc41f9c8-1479-4d2a-acbb-69e510788cb6",
+        "actions_performed": [],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "616842f7-bcaa-4b80-882d-bf7c594fcb50": [
+    {
+      "timestamp": "2025-09-13 23:24:09.379707",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:24:09.378707",
+        "trace": "Actions Module",
+        "conversation_id": "aa76009f-cbfc-41ec-a7e1-5d47da228adf",
+        "actions_performed": [
+          "Filtered invoices by period: last month, vendor: last month"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "a05fdaca-fdf4-433b-895f-7e6d48765294": [
+    {
+      "timestamp": "2025-09-13 23:31:20.403985",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Admin",
+        "timestamp": "2025-09-13T23:31:20.401930",
+        "trace": "Actions Module",
+        "conversation_id": "f921a72c-1e27-443f-b3c5-3a97a9be674f",
+        "actions_performed": [
+          "Filtered invoices by period: last month, vendor: last month"
+        ],
+        "confidence": 0.9
+      }
+    }
+  ],
+  "8652c14b-19f0-4718-9c00-f2ce423f83de": [
+    {
+      "timestamp": "2025-09-13 23:36:13.839691",
+      "query": "Filter invoices from last month",
+      "response": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-13T23:36:13.838682",
+        "trace": "Actions Module",
+        "conversation_id": "8b23264d-323f-4e9c-a324-93fc1c8f9fee",
+        "actions_performed": [
+          "Filtered invoices by period: last month, vendor: last month"
+        ],
+        "confidence": 0.9
+      }
+    }
   ]
 }

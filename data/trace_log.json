@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2025-09-13 16:25:24",
-    "query": "Why did my GST filing fail?",
-    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
-    "routed_to": "FAQ Module"
-  },
-  {
-    "timestamp": "2025-09-13 16:25:24",
-    "query": "Why did my GST filing fail?",
-    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
-    "routed_to": "FAQ Module"
-  },
-  {
     "timestamp": "2025-09-13 16:39:56",
     "query": "Show your work",
     "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
@@ -316,5 +304,461 @@
       "text": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Why did my GST filing fail?'\nAnd I responded: 'Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...'"
     },
     "routed_to": "Context-Enhanced Response"
+  },
+  {
+    "timestamp": "2025-09-13 18:09:25",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:09:25",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:09:39",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:09:39",
+    "query": "Why did my GST filing fail?",
+    "response": {
+      "text": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details."
+    },
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:11:04",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:11:04",
+    "query": "Why did my GST filing fail?",
+    "response": {
+      "text": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details."
+    },
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:11:22",
+    "query": "Check filing status for last month",
+    "response": "{'text': '\ud83d\udcdd Filing status for last month: Filed with 2 day delay\\n\\nDetails:\\n- Due date: 20th of mo...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:11:22",
+    "query": "Check filing status for last month",
+    "response": {
+      "text": "\ud83d\udcdd Filing status for last month: Filed with 2 day delay\n\nDetails:\n- Due date: 20th of month\n- Filed date: 22nd of month\n- Status: Complete",
+      "actions": [
+        "Checked filing status for last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:13:11",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:13:11",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:13:24",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:13:24",
+    "query": "Why did my GST filing fail?",
+    "response": {
+      "text": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details."
+    },
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:19:35",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:19:35",
+    "query": "Why did my GST filing fail?",
+    "response": {
+      "text": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details."
+    },
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:19:48",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:19:48",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:30:11",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:30:11",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:30:40",
+    "query": "Create a ticket for invoice mismatch",
+    "response": "\u2705 Ticket TCK-110 created for: Create a ticket for invoice mismatch",
+    "routed_to": "Support Module (Create Ticket)"
+  },
+  {
+    "timestamp": "2025-09-13 18:30:40",
+    "query": "Create a ticket for invoice mismatch",
+    "response": {
+      "text": "\u2705 Ticket TCK-110 created for: Create a ticket for invoice mismatch",
+      "actions": [
+        "Created ticket TCK-110"
+      ]
+    },
+    "routed_to": "Support Module (Create Ticket)"
+  },
+  {
+    "timestamp": "2025-09-13 18:43:45",
+    "query": "filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:43:45",
+    "query": "filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 18:44:00",
+    "query": "download GST report for Q1",
+    "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 18:44:00",
+    "query": "download GST report for Q1",
+    "response": {
+      "text": "\ud83e\udd14 I didn't quite get that. Could you rephrase?"
+    },
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 19:20:36",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "\u26a0\ufe0f An error occurred while processing your request: sequence item 0: expected str instance, tuple found",
+      "error": true,
+      "confidence": 0.1,
+      "processing_time": "0.007s"
+    },
+    "routed_to": "Error Handler"
+  },
+  {
+    "timestamp": "2025-09-13 19:20:36",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "\u26a0\ufe0f An error occurred while processing your request: sequence item 0: expected str instance, tuple found",
+      "error": true,
+      "confidence": 0.1,
+      "processing_time": "0.007s"
+    },
+    "routed_to": "Error Handler"
+  },
+  {
+    "timestamp": "2025-09-13 19:21:17",
+    "query": "GST filing failed for February 2025",
+    "response": {
+      "text": "\u26a0\ufe0f An error occurred while processing your request: fromisoformat: argument must be str",
+      "error": true,
+      "confidence": 0.1,
+      "processing_time": "0.000s"
+    },
+    "routed_to": "Error Handler"
+  },
+  {
+    "timestamp": "2025-09-13 19:21:17",
+    "query": "GST filing failed for February 2025",
+    "response": {
+      "text": "\u26a0\ufe0f An error occurred while processing your request: fromisoformat: argument must be str",
+      "error": true,
+      "confidence": 0.1,
+      "processing_time": "0.000s"
+    },
+    "routed_to": "Error Handler"
+  },
+  {
+    "timestamp": "2025-09-13 19:23:16",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 19:23:16",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 21:43:44",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 21:43:44",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 21:44:21",
+    "query": "create a ticket for finkraft HR",
+    "response": "\u2705 Ticket TCK-111 created for: create a ticket for finkraft HR",
+    "routed_to": "Support Module (Create Ticket)"
+  },
+  {
+    "timestamp": "2025-09-13 21:44:21",
+    "query": "create a ticket for finkraft HR",
+    "response": {
+      "text": "\u2705 Ticket TCK-111 created for: create a ticket for finkraft HR",
+      "actions": [
+        "Created ticket TCK-111"
+      ]
+    },
+    "routed_to": "Support Module (Create Ticket)"
+  },
+  {
+    "timestamp": "2025-09-13 22:07:31",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 22:07:31",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 22:27:52",
+    "query": "Check filing status for last month",
+    "response": "{'text': '\ud83d\udcdd Filing status for last month: Filed with 2 day delay\\n\\nDetails:\\n- Due date: 20th of mo...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 22:27:52",
+    "query": "Check filing status for last month",
+    "response": {
+      "text": "\ud83d\udcdd Filing status for last month: Filed with 2 day delay\n\nDetails:\n- Due date: 20th of month\n- Filed date: 22nd of month\n- Status: Complete",
+      "actions": [
+        "Checked filing status for last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 23:11:03",
+    "query": "Filter out the invoices of last month",
+    "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:11:03",
+    "query": "Filter out the invoices of last month",
+    "response": {
+      "text": "\ud83e\udd14 I didn't quite get that. Could you rephrase?"
+    },
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:12:40",
+    "query": "Show my pending tasks",
+    "response": "I'm not sure what you mean. Try asking about invoices, filings, or tickets.",
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:12:40",
+    "query": "Show my pending tasks",
+    "response": {
+      "text": "I'm not sure what you mean. Try asking about invoices, filings, or tickets."
+    },
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:20:13",
+    "query": "show pending invoices summary",
+    "response": "Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?",
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:20:13",
+    "query": "show pending invoices summary",
+    "response": {
+      "text": "Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?"
+    },
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:20:24",
+    "query": "show GST compliance dashboard",
+    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'show...",
+    "routed_to": "Context-Enhanced Response"
+  },
+  {
+    "timestamp": "2025-09-13 23:20:24",
+    "query": "show GST compliance dashboard",
+    "response": {
+      "text": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'show pending invoices summary'\nAnd I responded: 'Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?...'"
+    },
+    "routed_to": "Context-Enhanced Response"
+  },
+  {
+    "timestamp": "2025-09-13 23:20:37",
+    "query": "show team ticket status",
+    "response": "No matching ticket found.",
+    "routed_to": "Support Module (Track Ticket)"
+  },
+  {
+    "timestamp": "2025-09-13 23:20:37",
+    "query": "show team ticket status",
+    "response": {
+      "text": "No matching ticket found.",
+      "actions": [
+        "Checked ticket status"
+      ]
+    },
+    "routed_to": "Support Module (Track Ticket)"
+  },
+  {
+    "timestamp": "2025-09-13 23:21:07",
+    "query": "Filter last month query",
+    "response": "Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?",
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:21:07",
+    "query": "Filter last month query",
+    "response": {
+      "text": "Sorry, I didn't understand. Do you want me to filter invoices, raise a ticket, or explain something?"
+    },
+    "routed_to": "Fallback"
+  },
+  {
+    "timestamp": "2025-09-13 23:24:09",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 23:24:09",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 23:31:20",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 23:31:20",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 23:36:13",
+    "query": "Filter invoices from last month",
+    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
+    "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-13 23:36:13",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "Found 2 invoices matching period: last month, vendor: last month:\n\n- INV-1001: IndiSky (failed) from 2025-08-01\n- INV-1002: IndiSky (failed) from 2025-08-15",
+      "actions": [
+        "Filtered invoices by period: last month, vendor: last month"
+      ]
+    },
+    "routed_to": "Actions Module"
   }
 ]

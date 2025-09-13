@@ -79,5 +79,23 @@
     "created_at": "2025-09-13",
     "updated_at": "2025-09-13",
     "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-110",
+    "summary": "Create a ticket for invoice mismatch",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
+  },
+  {
+    "ticket_id": "TCK-111",
+    "summary": "create a ticket for finkraft HR",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2025-09-13",
+    "updated_at": "2025-09-13",
+    "assigned_to": "Support Team"
   }
 ]
