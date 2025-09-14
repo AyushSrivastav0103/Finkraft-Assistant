@@ -3,62 +3,6 @@ import json
 import os
 from datetime import datetime
 
-# Enhanced parameter extraction
-# def extract_parameters(query):
-#     """Extract structured parameters from natural language query"""
-#     params = {}
-#     query_lower = query.lower()
-    
-#     # Extract vendor with multiple patterns
-#     vendor_patterns = [
-#         r"vendor[=\s]+['\"]?([^'\"]+)['\"]?",
-#         r"from\s+([A-Za-z\s]+?)(?:\s|,|$)",
-#         r"supplier[=\s]+['\"]?([^'\"]+)['\"]?"
-#     ]
-    
-#     for pattern in vendor_patterns:
-#         match = re.search(pattern, query, re.IGNORECASE)
-#         if match:
-#             params['vendor'] = match.group(1).strip()
-#             break
-    
-#     # Extract status with exact matching
-#     status_patterns = [
-#         r"status[=\s]+['\"]?(\w+)['\"]?",
-#         r"\b(failed|pending|reconciled|open|closed|processing)\b"
-#     ]
-    
-#     for pattern in status_patterns:
-#         match = re.search(pattern, query_lower)
-#         if match:
-#             params['status'] = match.group(1)
-#             break
-    
-#     # Extract time periods
-#     time_patterns = {
-#         r"\blast\s+month\b": "last_month",
-#         r"\bthis\s+month\b": "this_month", 
-#         r"\blast\s+quarter\b": "last_quarter",
-#         r"\bq[1-4]\s*20\d{2}\b": lambda m: m.group(0).upper(),
-#         r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\s+20\d{2}\b": lambda m: m.group(0)
-#     }
-    
-#     for pattern, value in time_patterns.items():
-#         match = re.search(pattern, query_lower)
-#         if match:
-#             params['period'] = value(match) if callable(value) else value
-#             break
-    
-#     # Extract priority
-#     if any(word in query_lower for word in ["urgent", "high priority", "critical"]):
-#         params['priority'] = "high"
-#     elif any(word in query_lower for word in ["low priority", "minor"]):
-#         params['priority'] = "low"
-#     else:
-#         params['priority'] = "medium"
-    
-#     return params
-
 def extract_parameters(query: str) -> dict:
     """Extract structured parameters from natural language query."""
     params = {}
