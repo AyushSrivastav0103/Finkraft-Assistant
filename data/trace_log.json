@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2025-09-13 16:39:56",
-    "query": "Show your work",
-    "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
-    "routed_to": "Fallback"
-  },
-  {
-    "timestamp": "2025-09-13 16:39:56",
-    "query": "Show your work",
-    "response": "\ud83e\udd14 I didn't quite get that. Could you rephrase?",
-    "routed_to": "Fallback"
-  },
-  {
-    "timestamp": "2025-09-13 16:40:05",
-    "query": "Show your work",
-    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show...",
-    "routed_to": "Context-Enhanced Response"
-  },
-  {
-    "timestamp": "2025-09-13 16:40:05",
-    "query": "Show your work",
-    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show...",
-    "routed_to": "Context-Enhanced Response"
-  },
-  {
-    "timestamp": "2025-09-13 16:40:17",
-    "query": "Show your work",
-    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show...",
-    "routed_to": "Context-Enhanced Response"
-  },
-  {
-    "timestamp": "2025-09-13 16:40:17",
-    "query": "Show your work",
-    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Show...",
-    "routed_to": "Context-Enhanced Response"
-  },
-  {
-    "timestamp": "2025-09-13 16:40:56",
-    "query": "Download GST report for Q1",
-    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Why ...",
-    "routed_to": "Context-Enhanced Response"
-  },
-  {
-    "timestamp": "2025-09-13 16:40:56",
-    "query": "Download GST report for Q1",
-    "response": "I see we've discussed this before. Based on our previous conversation: \n\nPreviously you asked: 'Why ...",
-    "routed_to": "Context-Enhanced Response"
-  },
-  {
-    "timestamp": "2025-09-13 16:41:56",
-    "query": "Create a ticket for invoice mismatch",
-    "response": "\u2705 Ticket TCK-105 created for: Create a ticket for invoice mismatch",
-    "routed_to": "Support Module (Create Ticket)"
-  },
-  {
-    "timestamp": "2025-09-13 16:41:56",
-    "query": "Create a ticket for invoice mismatch",
-    "response": "\u2705 Ticket TCK-105 created for: Create a ticket for invoice mismatch\n\n\u26a1 Actions executed:\n- Created ti...",
-    "routed_to": "Support Module (Create Ticket)"
-  },
-  {
-    "timestamp": "2025-09-13 16:52:58",
-    "query": "Why did my GST filing fail?",
-    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
-    "routed_to": "FAQ Module"
-  },
-  {
-    "timestamp": "2025-09-13 16:53:22",
-    "query": "Check filing status for last month",
-    "response": "{'text': '\ud83d\udcdd Filing status for last month: Filed with 2 day delay\\n\\nDetails:\\n- Due date: 20th of mo...",
-    "routed_to": "Actions Module"
-  },
-  {
-    "timestamp": "2025-09-13 16:58:08",
-    "query": "Why did my GST filing fail?",
-    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
-    "routed_to": "FAQ Module"
-  },
-  {
-    "timestamp": "2025-09-13 16:58:21",
-    "query": "Check filing status for last month",
-    "response": "{'text': '\ud83d\udcdd Filing status for last month: Filed with 2 day delay\\n\\nDetails:\\n- Due date: 20th of mo...",
-    "routed_to": "Actions Module"
-  },
-  {
-    "timestamp": "2025-09-13 16:59:04",
-    "query": "Create a ticket for invoice mismatch",
-    "response": "\u2705 Ticket TCK-106 created for: Create a ticket for invoice mismatch",
-    "routed_to": "Support Module (Create Ticket)"
-  },
-  {
-    "timestamp": "2025-09-13 17:09:33",
-    "query": "Create a ticket for invoice mismatch",
-    "response": "\u2705 Ticket TCK-108 created for: Create a ticket for invoice mismatch",
-    "routed_to": "Support Module (Create Ticket)"
-  },
-  {
-    "timestamp": "2025-09-13 17:11:19",
-    "query": "Check filing status for last month",
-    "response": "{'text': '\ud83d\udcdd Filing status for last month: Filed with 2 day delay\\n\\nDetails:\\n- Due date: 20th of mo...",
-    "routed_to": "Actions Module"
-  },
-  {
-    "timestamp": "2025-09-13 17:11:31",
-    "query": "Why did my GST filing fail?",
-    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please re...",
-    "routed_to": "FAQ Module"
-  },
-  {
-    "timestamp": "2025-09-13 17:11:49",
-    "query": "Download GST report for Q1",
-    "response": "I'm not sure what you mean. Try asking about invoices, filings, or tickets.",
-    "routed_to": "Fallback"
-  },
-  {
-    "timestamp": "2025-09-13 17:12:08",
-    "query": "Filter invoices from last month",
-    "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
-    "routed_to": "Actions Module"
-  },
-  {
     "timestamp": "2025-09-13 17:17:18",
     "query": "Filter invoices from last month",
     "response": "{'text': 'Found 2 invoices matching period: last month, vendor: last month:\\n\\n- INV-1001: IndiSky (...",
@@ -760,5 +640,205 @@
       ]
     },
     "routed_to": "Actions Module"
+  },
+  {
+    "timestamp": "2025-09-14 12:58:28",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "\u26a0\ufe0f I encountered an error: log_trace() takes 3 positional arguments but 4 were given",
+      "error": true,
+      "confidence_score": 0.1
+    },
+    "routed_to": "Error Handler"
+  },
+  {
+    "timestamp": "2025-09-14 12:58:28",
+    "query": "Filter invoices from last month",
+    "response": {
+      "text": "\u26a0\ufe0f I encountered an error: log_trace() takes 3 positional arguments but 4 were given",
+      "error": true,
+      "confidence_score": 0.1
+    },
+    "routed_to": "Error Handler"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:04",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module",
+    "confidence": 0.9,
+    "complexity": "high",
+    "context_used": true,
+    "user_context": {
+      "total_conversations": 1,
+      "common_intent": "data_retrieval"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:04",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:23",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "routed_to": "FAQ Module",
+    "confidence": 0.9,
+    "complexity": "medium",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 0,
+      "common_intent": "unknown"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:23",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:30",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module",
+    "confidence": 0.9,
+    "complexity": "high",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 1,
+      "common_intent": "explanation"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:30",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:48",
+    "query": "Create a ticket for invoice mismatch",
+    "response": "\u2705 Ticket TCK-112 created with medium priority for: Create a ticket for invoice mismatch",
+    "routed_to": "Enhanced Support Module (Create)",
+    "confidence": 0.95,
+    "complexity": "medium",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 2,
+      "common_intent": "explanation"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:48",
+    "query": "Create a ticket for invoice mismatch",
+    "response": "\u2705 Ticket TCK-112 created with medium priority for: Create a ticket for invoice mismatch",
+    "routed_to": "Enhanced Support Module (Create)"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:56",
+    "query": "Check filing status for last month",
+    "response": "\ud83d\udcdd **GST Filing Status**\n\n**Period**: Last_Month\n**Status**: Filed on time \u2705\n**Due Date**: 20th of month\n**Filed Date**: 18th of month\n**Tax Liability**: \u20b9125,000\n**ITC Claimed**: \u20b945,000",
+    "routed_to": "Enhanced Actions Module",
+    "confidence": 0.9,
+    "complexity": "high",
+    "context_used": true,
+    "user_context": {
+      "total_conversations": 3,
+      "common_intent": "explanation"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:01:56",
+    "query": "Check filing status for last month",
+    "response": "\ud83d\udcdd **GST Filing Status**\n\n**Period**: Last_Month\n**Status**: Filed on time \u2705\n**Due Date**: 20th of month\n**Filed Date**: 18th of month\n**Tax Liability**: \u20b9125,000\n**ITC Claimed**: \u20b945,000",
+    "routed_to": "Enhanced Actions Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:08:19",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module",
+    "confidence": 0.9,
+    "complexity": "high",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 0,
+      "common_intent": "unknown"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:08:19",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:08:34",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "routed_to": "FAQ Module",
+    "confidence": 0.9,
+    "complexity": "medium",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 1,
+      "common_intent": "data_retrieval"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:08:34",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "routed_to": "FAQ Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:12:05",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module",
+    "confidence": 0.9,
+    "complexity": "high",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 0,
+      "common_intent": "unknown"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:12:05",
+    "query": "Filter invoices from last month",
+    "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+    "routed_to": "Enhanced Actions Module"
+  },
+  {
+    "timestamp": "2025-09-14 13:12:14",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "routed_to": "FAQ Module",
+    "confidence": 0.9,
+    "complexity": "medium",
+    "context_used": false,
+    "user_context": {
+      "total_conversations": 1,
+      "common_intent": "data_retrieval"
+    },
+    "execution_time": "N/A"
+  },
+  {
+    "timestamp": "2025-09-14 13:12:14",
+    "query": "Why did my GST filing fail?",
+    "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+    "routed_to": "FAQ Module"
   }
 ]

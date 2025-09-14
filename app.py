@@ -630,22 +630,35 @@ with chat_container:
         </div>
         """, unsafe_allow_html=True)
     else:
-        # Enhanced message display with better UX
-        for i, msg in enumerate(messages[-10:]):  # Show last 10 messages
+    # Group messages into conversation pairs and display in reverse chronological order
+        recent_messages = messages[-20:] if len(messages) > 20 else messages  # Get more messages for pairing
+        
+        # Display messages in reverse order but maintain question-answer flow
+        displayed_count = 0
+        for i in range(len(recent_messages) - 1, -1, -1):  # Go backwards through messages
+            if displayed_count >= 20:  # Limit display
+                break
+                
+            msg = recent_messages[i]
             timestamp = msg.get("timestamp", "")
             
-            if msg["role"] == "user":
+            # If this is an assistant message, also show the preceding user message
+            if msg["role"] == "assistant" and i > 0 and recent_messages[i-1]["role"] == "user":
+                user_msg = recent_messages[i-1]
+                user_timestamp = user_msg.get("timestamp", "")
+                
+                # Display user message first
                 st.markdown(f"""
                 <div class="chat-message user-message">
                     <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
                         <strong style="margin-right: 0.5rem;">👤 You</strong>
-                        <span style="font-size: 0.8rem; opacity: 0.8;">{timestamp}</span>
+                        <span style="font-size: 0.8rem; opacity: 0.8;">{user_timestamp}</span>
                     </div>
-                    <div style="font-size: 1rem; line-height: 1.5;">{msg["content"]}</div>
+                    <div style="font-size: 1rem; line-height: 1.5;">{user_msg["content"]}</div>
                 </div>
                 """, unsafe_allow_html=True)
                 
-            elif msg["role"] == "assistant":
+                # Then display assistant response
                 st.markdown(f"""
                 <div class="chat-message assistant-message">
                     <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
@@ -665,6 +678,25 @@ with chat_container:
                                 <strong>Action {j+1}:</strong> {action}
                             </div>
                             """, unsafe_allow_html=True)
+                
+                displayed_count += 2  # We displayed 2 messages
+                
+            # Skip user messages that were already paired with assistant responses
+            elif msg["role"] == "user" and i < len(recent_messages) - 1 and recent_messages[i+1]["role"] == "assistant":
+                continue  # This will be handled when we process the assistant message
+                
+            # Handle standalone messages (shouldn't happen in normal flow, but just in case)
+            elif msg["role"] == "user":
+                st.markdown(f"""
+                <div class="chat-message user-message">
+                    <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                        <strong style="margin-right: 0.5rem;">👤 You</strong>
+                        <span style="font-size: 0.8rem; opacity: 0.8;">{timestamp}</span>
+                    </div>
+                    <div style="font-size: 1rem; line-height: 1.5;">{msg["content"]}</div>
+                </div>
+                """, unsafe_allow_html=True)
+                displayed_count += 1
 
 # --- Enhanced Message Processing ---
 if (send_button and user_input.strip()) or (user_input.strip() and st.session_state.get("auto_send", False)):

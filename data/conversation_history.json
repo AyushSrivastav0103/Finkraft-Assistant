@@ -550,5 +550,225 @@
         "confidence": 0.9
       }
     }
+  ],
+  "57915f63-20b8-43a1-a00e-9ded3fb7347c": [
+    {
+      "timestamp": "2025-09-14 12:58:28.582619",
+      "query": "Filter invoices from last month",
+      "response": "\u26a0\ufe0f I encountered an error: log_trace() takes 3 positional arguments but 4 were given",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T12:58:28.581310",
+        "trace": "Error Handler",
+        "conversation_id": "b47a35a6-e809-4c3b-b770-de708d1ed6df",
+        "actions_performed": [],
+        "confidence": 0.9
+      },
+      "entities": {
+        "periods": [
+          "last month"
+        ],
+        "vendors": [
+          "last"
+        ]
+      },
+      "intent": "data_retrieval",
+      "satisfaction_score": 0.2
+    },
+    {
+      "timestamp": "2025-09-14 13:01:04.775885",
+      "query": "Filter invoices from last month",
+      "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:01:04.775885",
+        "trace": "Enhanced Actions Module",
+        "conversation_id": "b47a35a6-e809-4c3b-b770-de708d1ed6df",
+        "actions_performed": [
+          "Filtered 0 invoices by vendor: last, period: last month"
+        ],
+        "confidence": 0.9
+      },
+      "entities": {
+        "periods": [
+          "last month"
+        ],
+        "vendors": [
+          "last"
+        ]
+      },
+      "intent": "data_retrieval",
+      "satisfaction_score": 0.7999999999999999
+    }
+  ],
+  "d6aaddf5-339b-4b0b-8992-1ddc61f31f1d": [
+    {
+      "timestamp": "2025-09-14 13:01:23.145044",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:01:23.144040",
+        "trace": "FAQ Module",
+        "conversation_id": "c4f1f9d4-d087-489e-a3ce-f516f873d3af",
+        "actions_performed": [],
+        "confidence": 0.9
+      },
+      "entities": {},
+      "intent": "explanation",
+      "satisfaction_score": 0.39999999999999997
+    },
+    {
+      "timestamp": "2025-09-14 13:01:30.300862",
+      "query": "Filter invoices from last month",
+      "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:01:30.300862",
+        "trace": "Enhanced Actions Module",
+        "conversation_id": "c4f1f9d4-d087-489e-a3ce-f516f873d3af",
+        "actions_performed": [
+          "Filtered 0 invoices by vendor: last, period: last month"
+        ],
+        "confidence": 0.9
+      },
+      "entities": {
+        "periods": [
+          "last month"
+        ],
+        "vendors": [
+          "last"
+        ]
+      },
+      "intent": "data_retrieval",
+      "satisfaction_score": 0.7999999999999999
+    },
+    {
+      "timestamp": "2025-09-14 13:01:48.537176",
+      "query": "Create a ticket for invoice mismatch",
+      "response": "\u2705 Ticket TCK-112 created with medium priority for: Create a ticket for invoice mismatch",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:01:48.536176",
+        "trace": "Enhanced Support Module (Create)",
+        "conversation_id": "c4f1f9d4-d087-489e-a3ce-f516f873d3af",
+        "actions_performed": [
+          "Created ticket TCK-112",
+          "Set priority to medium"
+        ],
+        "confidence": 0.9
+      },
+      "entities": {},
+      "intent": "creation",
+      "satisfaction_score": 0.6
+    },
+    {
+      "timestamp": "2025-09-14 13:01:56.366489",
+      "query": "Check filing status for last month",
+      "response": "\ud83d\udcdd **GST Filing Status**\n\n**Period**: Last_Month\n**Status**: Filed on time \u2705\n**Due Date**: 20th of month\n**Filed Date**: 18th of month\n**Tax Liability**: \u20b9125,000\n**ITC Claimed**: \u20b945,000",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:01:56.365346",
+        "trace": "Enhanced Actions Module",
+        "conversation_id": "c4f1f9d4-d087-489e-a3ce-f516f873d3af",
+        "actions_performed": [
+          "Checked filing status for last_month"
+        ],
+        "confidence": 0.9
+      },
+      "entities": {
+        "periods": [
+          "last month"
+        ]
+      },
+      "intent": "status_inquiry",
+      "satisfaction_score": 0.7999999999999999
+    }
+  ],
+  "8d557273-2ada-4833-8f72-92270b702fe8": [
+    {
+      "timestamp": "2025-09-14 13:08:19.712245",
+      "query": "Filter invoices from last month",
+      "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:08:19.710242",
+        "trace": "Enhanced Actions Module",
+        "conversation_id": "ab15d05e-81b3-47a8-81ab-798d1f2d58ea",
+        "actions_performed": [
+          "Filtered 0 invoices by vendor: last, period: last month"
+        ],
+        "confidence": 0.9
+      },
+      "entities": {
+        "periods": [
+          "last month"
+        ],
+        "vendors": [
+          "last"
+        ]
+      },
+      "intent": "data_retrieval",
+      "satisfaction_score": 0.7999999999999999
+    },
+    {
+      "timestamp": "2025-09-14 13:08:34.889373",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:08:34.889373",
+        "trace": "FAQ Module",
+        "conversation_id": "ab15d05e-81b3-47a8-81ab-798d1f2d58ea",
+        "actions_performed": [],
+        "confidence": 0.9
+      },
+      "entities": {},
+      "intent": "explanation",
+      "satisfaction_score": 0.39999999999999997
+    }
+  ],
+  "2fdcb654-624e-4553-a585-3cac59e48d99": [
+    {
+      "timestamp": "2025-09-14 13:12:05.144334",
+      "query": "Filter invoices from last month",
+      "response": "\ud83d\udcca **Invoice Filter Results**\n\n**Filters Applied**: vendor: last, period: last month\n**Found**: 0 invoices\n**Total Amount**: \u20b90\n\n**Results:**\n",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:12:05.143334",
+        "trace": "Enhanced Actions Module",
+        "conversation_id": "6e55ce7e-3eac-4788-888b-86eab79f1ff4",
+        "actions_performed": [
+          "Filtered 0 invoices by vendor: last, period: last month"
+        ],
+        "confidence": 0.9
+      },
+      "entities": {
+        "periods": [
+          "last month"
+        ],
+        "vendors": [
+          "last"
+        ]
+      },
+      "intent": "data_retrieval",
+      "satisfaction_score": 0.7999999999999999
+    },
+    {
+      "timestamp": "2025-09-14 13:12:14.223587",
+      "query": "Why did my GST filing fail?",
+      "response": "Your GST filing can fail due to missing invoice data, incorrect GSTIN, or late submission. Please review error logs for details.",
+      "context": {
+        "role": "Manager",
+        "timestamp": "2025-09-14T13:12:14.221925",
+        "trace": "FAQ Module",
+        "conversation_id": "6e55ce7e-3eac-4788-888b-86eab79f1ff4",
+        "actions_performed": [],
+        "confidence": 0.9
+      },
+      "entities": {},
+      "intent": "explanation",
+      "satisfaction_score": 0.39999999999999997
+    }
   ]
 }
